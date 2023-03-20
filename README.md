@@ -9,3 +9,30 @@ A Website For Renting and Buying Real Estate where you can chat with the owners 
 - Tailwind CSS 
 - Node : 18.14.0
 - Testing Api With Postman
+## Class Diagram
+![classGiagram](https://i.postimg.cc/RVBvSypx/Rent-Link-drawio.png)
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd RentLink
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
