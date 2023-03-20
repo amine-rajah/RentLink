@@ -6,4 +6,6 @@ A Website For Renting and Buying Real Estate where you can chat with the owners 
 - PostgreSQL
 - Maven 3.6.1
 - Angular CLI : 15.1.5
+- Tailwind CSS 
 - Node : 18.14.0
+- Testing Api With Postman
