@@ -10,7 +10,7 @@ A Website For Renting and Buying Real Estate where you can chat with the owners 
 - Node : 18.14.0
 - Testing Api With Postman
 ## Class Diagram
-![classGiagram](https://i.postimg.cc/RVBvSypx/Rent-Link-drawio.png)
+<a href="https://ibb.co/3mPD6kQ"><img src="https://i.ibb.co/DfjxcLT/Rent-Link-drawio.png" alt="Rent-Link-drawio" border="0"></a>
 ## Run Locally
 
 Clone the project
