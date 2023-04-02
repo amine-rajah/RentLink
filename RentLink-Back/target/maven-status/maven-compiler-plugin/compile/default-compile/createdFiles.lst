@@ -1,1 +1,5 @@
+com\rentlink\relink\controllers\test.class
+com\rentlink\relink\models\User.class
 com\rentlink\relink\RelinkApplication.class
+com\rentlink\relink\repositories\UserRepository.class
+com\rentlink\relink\controllers\UserController.class
