@@ -1,6 +1,6 @@
 package com.rentlink.relink.controllers;
 
-import com.rentlink.relink.models.User;
+import com.rentlink.relink.entities.User;
 import com.rentlink.relink.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
