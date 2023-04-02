@@ -1,6 +1,17 @@
 # RentLink 
-A Website For Renting and Buying Real Estate where you can chat with the owners and make deals
-## Technologies
+Un site Web pour la location et l'achat d'immeubles où vous pouvez discuter avec les propriétaires et faire des affaires.
+
+Durant ce projet nous allons:
+
++ Concevoir et developper une application web ( RentLink) 
++ Developper le backend avec Spring Boot
++ Developper le frontend avec Angualr
++ Dockeriser l'application (L'environnement)
+    - Conteneur pour la base de données
+    - Conteneur pour l'application Backend
+    - Conteneur pour l'application Front
+
+## Technologies utilisées
 - Java 11.0.16.1
 - Spring Boot 2 (with Spring Web MVC, Spring Data JPA)
 - PostgreSQL
@@ -9,30 +20,28 @@ A Website For Renting and Buying Real Estate where you can chat with the owners 
 - Tailwind CSS 
 - Node : 18.14.0
 - Testing Api With Postman
-## Class Diagram
-<a href="https://ibb.co/3mPD6kQ"><img src="https://i.ibb.co/DfjxcLT/Rent-Link-drawio.png" alt="Rent-Link-drawio" border="0"></a>
-## Run Locally
+- Docker
+- Jenkins
 
-Clone the project
 
-```bash
-  git clone https://link-to-project
-```
+## Plan de travail (Roadmap)
++ Backend
+    - Conception (UML: diagramme de classe)
+    - Creer un projet Spring Boot
+    - Configurer le projet
+    - Creer les entites (models), les services, ....
+    - Configurer Swagger (API Documentations)
+    - Generer le swagger.json => Generer les services, model pour l'application Front.
++ Frontend
+    - Creer le projet Angular
+    - Découper l'application en components
+    - Creer les components
+    - Creer les services
+    - Developper les interfaces (IHM)
++ DevOps
+    - Creer des images Docker (BDD, Backend [API], Frontend)
+    - Faire fonctionner l'application en dehors des IDE
 
-Go to the project directory
+## Diagramme de classe 
 
-```bash
-  cd RentLink
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
+<a href="https://ibb.co/3mPD6kQ"><img src="https://i.ibb.co/DfjxcLT/Rent-Link-drawio.png"  alt="Rent-Link-drawio" border="0"></a>
