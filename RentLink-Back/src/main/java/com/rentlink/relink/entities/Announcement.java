@@ -2,15 +2,19 @@ package com.rentlink.relink.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@EqualsAndHashCode(callSuper = true)
 @Entity
-@Table(name="RL_Announcement")
+@Table(name="announcements")
 public class Announcement extends AbstractEntity{
 
     @Column(name="A_Title")
@@ -20,16 +24,15 @@ public class Announcement extends AbstractEntity{
     private String description;
 
     @Column(name="A_Price")
-    private Long price;
+    private BigDecimal price;
 
     @Column(name="A_Adress")
     private String location;
 
-    @ManyToOne
-    @JoinColumn(name="A_Seller_ID")
-    private User sellerId;
-
     @Column(name = "U_IS_DELETED")
     private boolean isDeleted;
+
+    @OneToMany(mappedBy = "announcement")
+    private List<Rent> rents;
 
 }

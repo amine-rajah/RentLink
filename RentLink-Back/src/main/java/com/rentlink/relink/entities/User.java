@@ -7,12 +7,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="RL_User")
+@Table(name="users")
 public class User extends AbstractEntity {
 
     @Column(name = "U_First Name")
@@ -33,4 +34,7 @@ public class User extends AbstractEntity {
     @Column(name = "U_Role")
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @OneToMany(mappedBy = "seller")
+    private List<Announcement> announcements;
 }

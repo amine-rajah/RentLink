@@ -1,5 +1,9 @@
-com\rentlink\relink\controllers\test.class
-com\rentlink\relink\models\User.class
+com\rentlink\relink\enumuration\Duration.class
 com\rentlink\relink\RelinkApplication.class
+com\rentlink\relink\entities\AbstractEntity.class
+com\rentlink\relink\entities\Announcement.class
 com\rentlink\relink\repositories\UserRepository.class
 com\rentlink\relink\controllers\UserController.class
+com\rentlink\relink\entities\User.class
+com\rentlink\relink\enumuration\Role.class
+com\rentlink\relink\entities\Rent.class

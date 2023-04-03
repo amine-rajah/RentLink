@@ -7,13 +7,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="RL_Rent")
+@Table(name="rents")
 public class Rent extends AbstractEntity {
 
     @Column(name="R_Subscription_Type")
@@ -34,7 +36,7 @@ public class Rent extends AbstractEntity {
     private Duration duration;
 
     @Column(name="R_Price")
-    private Long price;
+    private BigDecimal price;
 
     @Column(name="R_Start_Date")
     private Date startDate;
@@ -44,4 +46,9 @@ public class Rent extends AbstractEntity {
 
     @Column(name = "R_Country")
     private String country;
+
+    @ManyToOne
+    @JoinColumn(name = "announcement_id")
+    private Announcement announcement;
+
 }
