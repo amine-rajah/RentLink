@@ -20,17 +20,17 @@ public class AbstractEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @CreatedDate
-    @Column(name="CreationDate", nullable = false)
-    @JsonIgnore
-    private Instant creationDate;
+    // @CreatedDate
+    // @Column(name="CreationDate", nullable = false)
+    // @JsonIgnore
+    // private Instant creationDate;
 
-    @LastModifiedDate
-    @Column(name="LastModifiedDate")
-    @JsonIgnore
-    private Instant lastUpdateDate;
+    // @LastModifiedDate
+    // @Column(name="LastModifiedDate")
+    // @JsonIgnore
+    // private Instant lastUpdateDate;
 
-    @Column(name = "Image")
-    private String image;
+    // @Column(name = "Image")
+    // private String image;
 
 }
