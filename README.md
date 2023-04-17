@@ -44,4 +44,4 @@ Durant ce projet nous allons:
 
 ## Diagramme de classe 
 
-<a href="https://ibb.co/3mPD6kQ"><img src="https://i.ibb.co/DfjxcLT/Rent-Link-drawio.png"  alt="Rent-Link-drawio" border="0"></a>
+<a href="https://ibb.co/cyZq9ym"><img src="https://i.ibb.co/VLz6GLK/Rent-Link-drawio-3.png" alt="Rent-Link-drawio-3" border="0"></a>
