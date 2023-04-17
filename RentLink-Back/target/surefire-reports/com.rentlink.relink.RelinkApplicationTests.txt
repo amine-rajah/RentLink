@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.rentlink.relink.RelinkApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.985 s - in com.rentlink.relink.RelinkApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.345 s - in com.rentlink.relink.RelinkApplicationTests

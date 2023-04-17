@@ -1,1 +1,4 @@
+com\rentlink\relink\enumuration\Duration.class
 com\rentlink\relink\RelinkApplication.class
+com\rentlink\relink\entities\AbstractEntity.class
+com\rentlink\relink\enumuration\Role.class
